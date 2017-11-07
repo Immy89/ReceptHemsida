@@ -1,0 +1,202 @@
+body {
+    background-image: url(../images/Råvaror_bakgrund_nederkant.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: "Comic sans MS";
+}
+
+.pageSetup {
+    width: 1328px;
+    height: 233.76px;
+}
+
+.header {
+    width: 1328px;
+    height: 148.16px;
+}
+
+.logo {
+    width: 148.16px;
+    height: 148.16px;
+    float: left;
+}
+
+.logo a img {
+    max-width: 142.16px;
+    max-height: 142.16px;
+    margin: 6px;
+}
+
+h4 {
+    font-family: "Comic sans MS";
+    margin-left: 10px;
+    margin-top: 0px;
+    width: 1169.84px;
+    float: left;
+}
+h1 {
+    font-family: "Comic sans MS";
+    margin-left: 10px;
+    width: 1169.84px;
+    float: left;
+}
+#slogan {
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button {
+    font-family: "Comic sans MS";
+    background-color: rgb(76, 175, 80); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid rgb(28, 129, 32); /* Green */
+    border-radius: 12px;
+    /* float: left; */
+    box-shadow: 0 9px rgb(196, 255, 198);
+    margin-bottom: 9px;
+    border-width: 2px;
+}
+
+.button:hover {
+    font-weight: bold;
+    display: list-item;
+    box-shadow: none;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(58, 175, 60);
+    transform: translateY(4px);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 400px;
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    z-index: 10;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: rgba(196, 255, 198, 0.6);
+}
+
+.dropdown-content a img {
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 6px;
+}
+
+.dropdownInside {
+    position: relative;
+    display: block;
+}
+
+.meny {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.header4 {
+    display: block;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+p {
+    font-weight: lighter;
+}
+
+#titel {
+    position: relative;
+    display: block;
+}
+
+#bild {
+    position: relative;
+    display: inline;
+    max-width: 35%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 6.55px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+#ingredienser {
+    position: relative;
+    display: inline;
+    max-width: 24%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    float: left;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#beskrivning {
+    position: relative;
+    display: inline;
+    max-width: 35%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#recensioner {
+    position: relative;
+    display: block;
+    clear: left;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}

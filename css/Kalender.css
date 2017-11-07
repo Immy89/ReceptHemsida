@@ -1,0 +1,257 @@
+body {
+    background-image: url(../../images/Råvaror_bakgrund_nederkant.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: "Comic sans MS";
+}
+
+.pageSetup {
+    width: 1328px;
+    height: 233.76px;
+}
+
+.header {
+    width: 1328px;
+    height: 148.16px;
+}
+
+.logo {
+    width: 148.16px;
+    height: 148.16px;
+    float: left;
+}
+
+.logo a img {
+    max-width: 142.16px;
+    max-height: 142.16px;
+    margin: 6px;
+}
+
+h1 {
+    font-family: "Comic sans MS";
+    margin-left: 10px;
+    width: 1169.84px;
+    float: left;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-family: "Comic sans MS";
+    margin-left: 10px;
+    margin-top: 0px;
+    width: 1169.84px;
+    float: left;
+}
+
+#slogan {
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button {
+    font-family: "Comic sans MS";
+    background-color: rgb(76, 175, 80); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid rgb(28, 129, 32); /* Green */
+    border-radius: 12px;
+    /* float: left; */
+    box-shadow: 0 9px rgb(196, 255, 198);
+    margin-bottom: 9px;
+    border-width: 2px;
+}
+
+.button:hover {
+    font-weight: bold;
+    display: list-item;
+    box-shadow: none;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(58, 175, 60);
+    transform: translateY(4px);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 400px;
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    z-index: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: rgba(196, 255, 198, 0.6);
+}
+
+.dropdown-content a img {
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 6px;
+}
+
+.dropdownInside {
+    position: relative;
+    display: block;
+}
+
+.meny {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+}
+
+.valjManad {
+    float: left;
+    align-content: center;
+    width: 1311.2px;
+    height: 50.8px;
+}
+
+.foregaende {
+    display: inline;
+    float: left;
+    padding-top: 14.2px;
+    padding-bottom: 14.2px;
+    padding-left: 10px;
+    margin-bottom: 3px;
+    margin-left: 123.6px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.manadAr {
+    display: inline;
+    float: left;
+    text-align: center;
+    padding-right: 475.256px;
+    padding-left: 475.256px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.nasta {
+    display: inline;
+    float: left;
+    padding-top: 14.2px;
+    padding-bottom: 14.2px;
+    padding-right: 10px;
+    margin-bottom: 3px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.veckodagar {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 150px;
+    margin: 1px;
+    border-radius: 6px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.forstaVeckodagen {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 150px;
+    margin-left: 124.6px;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 6px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.vecka {
+    clear: left;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.dag {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 150px;
+    height: 100px;
+    margin: 1px;
+    border-radius: 6px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.mandag {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 150px;
+    height: 100px;
+    margin-left: 124.6px;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 6px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.dag a {
+    width: 150px;
+    height: 71.6px;
+    display: block;
+    text-align: center;
+}
+
+.mandag a {
+    width: 150px;
+    height: 71.6px;
+    display: block;
+    text-align: center;
+}
+
+.dag a img {
+    max-width: 146px;
+    max-height: 69.6px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.mandag a img {
+    max-width: 146px;
+    max-height: 69.6px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
