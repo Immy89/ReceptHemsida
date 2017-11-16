@@ -1,116 +1,147 @@
 body {
-    background-image: url(../images/Råvaror_bakgrund_nederkant.jpg);
-    background-attachment: fixed;
+    background-color: rgb(202, 175, 158);
     background-size: 100%;
     font-family: "Comic sans MS";
 }
 
 .pageSetup {
-    width: 1328px;
-    height: 233.76px;
+    width: auto;
+    height: 244.41px;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 .header {
-    width: 1328px;
-    height: 148.16px;
+    background-image: url(../images/BakgrundHeader.png);
+    width: auto;
+    height: 206.41px;
 }
 
 .logo {
-    width: 148.16px;
-    height: 148.16px;
-    float: left;
+    display: block;
+    width: auto;
+    height: 118.62px;
 }
 
 .logo a img {
-    max-width: 142.16px;
-    max-height: 142.16px;
+    width: 106.62px;
+    height: 106.62px;
     margin: 6px;
+    align-content: center;
+    border-radius: 20px;
 }
 
-h4 {
-    font-family: "Comic sans MS";
-    margin-left: 10px;
-    margin-top: 0px;
-    width: 1169.84px;
-    float: left;
+#webName {
+    width: auto;
+    font-size: 45px;
+    color: rgb(180, 145, 122);
+    margin-bottom: 10px;
 }
-h1 {
-    font-family: "Comic sans MS";
-    margin-left: 10px;
-    width: 1169.84px;
-    float: left;
-}
+
 #slogan {
+    width: auto;
+    height: 30px;
+    font-size: 18px;
+    color: rgb(180, 145, 122);
+    margin-bottom: 3px;
+}
+
+h4 img {
+    width: 25px;
+    height: 25px;
+    border-radius: 19.5px;
     vertical-align: middle;
-    padding-left: 10px;
-    padding-right: 10px;
+}
+
+.meny {
+    height: 40px;
+    background-color: rgb(180, 145, 122);
+    z-index: 1px;
 }
 
 .button {
-    font-family: "Comic sans MS";
-    background-color: rgb(76, 175, 80); /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    display: block;
     cursor: pointer;
-    border: 2px solid rgb(28, 129, 32); /* Green */
-    border-radius: 12px;
-    /* float: left; */
-    box-shadow: 0 9px rgb(196, 255, 198);
-    margin-bottom: 0px;
-    border-width: 2px;
+    font-size: 18px;
+    height: auto;
+    padding-top: 11.2px;
+    padding-bottom: 11.2px;
 }
 
 .button:hover {
     font-weight: bold;
-    box-shadow: none;
+    background-color: rgb(145, 114, 95);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 .button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px rgb(58, 175, 60);
-    transform: translateY(4px);
+    background-color: rgb(145, 114, 95);
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
+    width: 9.09%;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    min-width: 400px;
-    border-radius: 6px;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    padding-left: 10px;
+    background-color: rgb(145, 114, 95);
+    min-width: 200%;
+    max-width: 800%;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
     z-index: 10;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    background-color: rgba(196, 255, 198, 0.6);
-}
-
-.dropdown-content a img {
-    max-width: 600px;
-    max-height: 600px;
-    border-radius: 6px;
 }
 
 .dropdownInside {
     position: relative;
     display: block;
+    padding: 3%;
 }
 
-.meny {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    padding-left: 10px;
+.dropdownInside a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.dropdownInside a:hover {
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: rgb(145, 114, 95);
+}
+
+#content {
+    width: 94%;
+    height: fit-content;
+    min-height: 350px;
+    margin: 1.5%;
+    padding: 1.5%;
+    border-radius: 20px;
+    background-color: rgb(145, 114, 95);
+}
+
+#footer {
+    margin-bottom: 10px;
+}
+
+#footer p {
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    font-weight: lighter;
 }

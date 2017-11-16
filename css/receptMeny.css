@@ -1,132 +1,26 @@
-body {
-    background-image: url(../images/Råvaror_bakgrund_nederkant.jpg);
-    background-attachment: fixed;
-    background-size: 100%;
-    font-family: "Comic sans MS";
-}
-
-.pageSetup {
-    width: 1328px;
-    height: 233.76px;
-}
-
-.header {
-    width: 1328px;
-    height: 148.16px;
-}
-
-.logo {
-    width: 148.16px;
-    height: 148.16px;
-    float: left;
-}
-
-.logo a img {
-    max-width: 142.16px;
-    max-height: 142.16px;
-    margin: 6px;
-}
-
-h4 {
-    font-family: "Comic sans MS";
-    margin-left: 10px;
-    margin-top: 0px;
-    width: 1169.84px;
-    float: left;
-}
-h1 {
-    font-family: "Comic sans MS";
-    margin-left: 10px;
-    width: 1169.84px;
-    float: left;
-}
-#slogan {
-    vertical-align: middle;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.button {
-    font-family: "Comic sans MS";
-    background-color: rgb(76, 175, 80); /* Green */
-    border: none;
+.header2 {
+    display: block;
+    margin: 0.3em 1%;
+    font-size: 22px;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
+}
+
+.list {
+    width: 97%;
+    height: 95%;
+    margin: 1.5% 1%;
+}
+
+.listItem {
+    display: block;
+    margin: 0.3em 0%;
+}
+
+.listItem a {
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: 2px solid rgb(28, 129, 32); /* Green */
-    border-radius: 12px;
-    /* float: left; */
-    box-shadow: 0 9px rgb(196, 255, 198);
-    margin-bottom: 0px;
-    border-width: 2px;
+    color: white;
 }
 
-.button:hover {
+.listItem a:hover {
     font-weight: bold;
-    box-shadow: none;
-}
-
-.button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px rgb(58, 175, 60);
-    transform: translateY(4px);
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content-hide {
-    display: none;
-    position: absolute;
-    min-width: 400px;
-    border-radius: 6px;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    padding-left: 10px;
-    z-index: 20;
-}
-
-.dropdown-content-visible {
-    position: absolute;
-    min-width: 400px;
-    border-radius: 6px;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    padding-left: 10px;
-    z-index: 10;
-    background-color: rgba(196, 255, 198, 0.6);
-}
-
-.dropdown:hover .dropdown-content-hide {
-    display: block;
-    background-color: rgba(196, 255, 198, 0.6);
-}
-
-.dropdown:hover .dropdown-content-visible {
-    display: block;
-    background-color: rgba(196, 255, 198, 0.6);
-}
-
-.dropdown-content a img {
-    max-width: 600px;
-    max-height: 600px;
-    border-radius: 6px;
-}
-
-.dropdownInside {
-    position: relative;
-    display: block;
-}
-
-.meny {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    padding-left: 10px;
 }
