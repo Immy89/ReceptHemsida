@@ -32,7 +32,7 @@
                     <a class="button" href="index.php?content=Kalender/November2017.html">Kalender</a>
                 </li>
                 <li class="dropdown">
-                    <a class="button" href="index.php?content=Recept.html">Recept</a>
+                    <span class="button">Recept</span>
                     <ul class="dropdown-content">
                         <li class="dropdownInside">
                             <a href="index.php?content=Recipes/Köttbullar_med_Mos.php">Gräddkokta viltköttbullar och rårörda lingon med pepparrot</a>
