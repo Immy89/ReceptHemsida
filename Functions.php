@@ -4,7 +4,7 @@
 
         $servername = "localhost";
         $username = "root";
-        $password = "root";
+        $password = "";
         $databasename = "recepthemsida";
 
         // Create connection
@@ -14,11 +14,12 @@
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         } 
+        $conn->set_charset("utf8");
         return $conn;
     }
 
     function fetchComments($recipeId, $relocateTo, $conn) {
-        
+        $conn->set_charset("utf8");
         $sql = "SELECT KommentarID, Användarnamn, Kommentar FROM kommentar WHERE ReceptID = '$recipeId'";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {

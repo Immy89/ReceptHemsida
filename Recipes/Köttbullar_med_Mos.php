@@ -1,15 +1,10 @@
-<?php
-    session_start();
-    include('Functions.php');
-?>
-
 <!DOCTYPE html>
 <html>
 
     <head>
         <title>Köttbullar med Mos</title>
         <meta charset="UTF-8" />
-        <link rel="Stylesheet" type="text/css" href="../css/recept.php">
+        <link rel="Stylesheet" type="text/css" href="css/recept.php">
     </head>
 
     <body>
@@ -17,7 +12,7 @@
             <h2>Gräddkokta viltköttbullar och rårörda lingon med pepparrot</h2>
         </div>
         <div id="bild">
-            <img src="../images/Köttbullar_med_mos.jpg" alt="Köttbullar_med_mos.jpg" />
+            <img src="images/Köttbullar_med_mos.jpg" alt="Köttbullar_med_mos.jpg" />
         </div>
         <div id="ingredienser">
             <h3>Ingredienser:</h3>
@@ -55,7 +50,7 @@
             <h3>Recensioner:</h3>
             <div id="SkapaRecensioner">
                 <form action="SkapaRecension.php" method="POST">
-                    <input type="hidden" name="receptId" value="2">
+                    <input type="hidden" name="receptId" value="1">
                     <input type="hidden" name="relocateTo" value="index.php?content=Recipes/Köttbullar_med_Mos.php">
                     <div class="container">
                         <label>
@@ -69,7 +64,7 @@
             <div id="InlästaRecensioner">
             <?php
                     $conn = connectToDatabase();
-                    fetchComments(2, 'index.php?content=Recipes/Köttbullar_med_Mos.php', $conn);
+                    fetchComments(1, 'index.php?content=Recipes/Köttbullar_med_Mos.php', $conn);
                     $conn->close();
                 ?>
             </div>

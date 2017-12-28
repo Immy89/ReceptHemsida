@@ -1,15 +1,10 @@
-<?php
-    session_start();
-    include('Functions.php');
-?>
-
 <!DOCTYPE html>
 <html>
 
     <head>
         <title>Vietnamesiska Pannkakor</title>
         <meta charset="UTF-8" />
-        <link rel="Stylesheet" type="text/css" href="../css/recept.php">
+        <link rel="Stylesheet" type="text/css" href="css/recept.php">
     </head>
 
     <body>
@@ -17,7 +12,7 @@
             <h2>Vietnamesiska Pannkakor</h2>
         </div>
         <div id="bild">
-            <img src="../images/Vietnamesiska_Pannkakor.jpg" alt="Vietnamesiska_Pannkakor.jpg" />
+            <img src="images/Vietnamesiska_Pannkakor.jpg" alt="Vietnamesiska_Pannkakor.jpg" />
         </div>
         <div id="ingredienser">
             <h3>Ingredienser:</h3>
@@ -70,7 +65,7 @@
             <h3>Recensioner:</h3>
             <div id="SkapaRecensioner">
                 <form action="SkapaRecension.php" method="POST">
-                    <input type="hidden" name="receptId" value="3">
+                    <input type="hidden" name="receptId" value="2">
                     <input type="hidden" name="relocateTo" value="index.php?content=Recipes/Vietnamesiska_Pannkakor.php">
                     <div class="container">
                         <label>
@@ -84,7 +79,7 @@
             <div id="InlästaRecensioner">
             <?php
                     $conn = connectToDatabase();
-                    fetchComments(3, 'index.php?content=Recipes/Vietnamesiska_Pannkakor.php', $conn);
+                    fetchComments(2, 'index.php?content=Recipes/Vietnamesiska_Pannkakor.php', $conn);
                     $conn->close();
                 ?>
             </div>

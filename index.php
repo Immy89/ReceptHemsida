@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    include(Functions.php);
+    include('Functions.php');
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +29,7 @@
 
             <ul class="meny">
                 <li class="dropdown">
-                    <a class="button" href="index.php?content=Kalender/November2017.html">Kalender</a>
+                    <a class="button" href="index.php?content=Kalender/December2017.html">Kalender</a>
                 </li>
                 <li class="dropdown">
                     <span class="button">Recept</span>
